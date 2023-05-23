@@ -1,0 +1,32 @@
+body{
+  background-color: #F2F2F2;
+  margin: 0;
+}
+#header{
+  background-color:#3E333F;
+  color:#F0E19E;
+  font-weight: bolder;
+  text-align: center;
+}
+#index{
+  border: #FC4442 5px dashed;
+  background-color: #F0E19E;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+@media screen and (max-width:767px){
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+}
+@media screen and (min-width:1024px) {
+  #header{
+    height:150px;
+    font-size: 80px;
+  }
+  #index{
+    width: 1000px;
+    margin-top: 50px;
+    min-height: 100px;
+  }
+}

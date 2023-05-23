@@ -1,0 +1,36 @@
+{
+  "pages": [
+    {
+      "name": "政治経済",
+      "category": "倫政"
+    },
+    {
+      "name": "日本哲学",
+      "category": "倫政"
+    },
+    {
+      "name": "東洋哲学",
+      "category": "倫政"
+    },
+    {
+      "name": "西洋哲学",
+      "category": "倫政"
+    },
+    {
+      "name": "近代哲学",
+      "category": "倫政"
+    },
+    {
+      "name": "有機化学知識分野",
+      "category": "化学"
+    },
+    {
+      "name": "無機化学",
+      "category": "化学"
+    },
+    {
+      "name": "音楽理論ノート",
+      "category": "その他"
+    }
+  ]
+}
