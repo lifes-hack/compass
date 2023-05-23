@@ -8,6 +8,12 @@ body{
   font-weight: bolder;
   text-align: center;
 }
+h1{
+  color: #3E333F;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  text-decoration-color: #FC4442;
+}
 #index{
   border: #FC4442 5px dashed;
   background-color: #F0E19E;
@@ -47,8 +53,16 @@ h2{
 @media screen and (min-width:768px) and (max-width:1023px){
 }
 @media screen and (min-width:1024px) {
-  #logo{
+  #image{
+    border: #F2F2F2 5px dashed;
+    height: 400px;
+    width: 400px;
+    background-image: url("twitter.jpg");
+    background-size: contain;
     margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left:auto;
+    margin-right:auto;
   }
   #categories > li{
     margin: 10px;
@@ -69,7 +83,7 @@ h2{
   }
   #index{
     width: 750px;
-    margin-top: 50px;
+    margin-top: 30px;
     min-height: 100px;
   }
 }
