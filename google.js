@@ -1,0 +1,2 @@
+const head = document.head;
+head.insertAdjacentHTML('beforeEnd', '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8834285879381764" crossorigin="anonymous"></script>');
