@@ -42,7 +42,9 @@ $endif$
 </head>
 <body>
   <div id="header">
-    ComPASS
+    <span id="compass">
+      ComPASS
+    </span>
   </div>
   <div id="content">
     $for(include-before)$
@@ -82,4 +84,9 @@ $endif$
     $endfor$
   </div>
 </body>
+<script>
+  document.getElementById("compass").addEventListener("click", function(){
+    window.location.href = "../"
+  })
+</script>
 </html>

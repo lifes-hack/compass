@@ -30,7 +30,9 @@
 </head>
 <body>
   <div id="header">
-    ComPASS
+    <span id="compass">
+      ComPASS
+    </span>
   </div>
   <div id="content">
                 <h1 id="インド哲学">インド哲学</h1>
@@ -173,4 +175,9 @@
                 </ul>
       </div>
 </body>
+<script>
+  document.getElementById("compass").addEventListener("click", function(){
+    window.location.href = "../"
+  })
+</script>
 </html>

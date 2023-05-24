@@ -30,7 +30,9 @@
 </head>
 <body>
   <div id="header">
-    ComPASS
+    <span id="compass">
+      ComPASS
+    </span>
   </div>
   <div id="content">
                 <h1 id="古代ギリシア">古代ギリシア</h1>
@@ -50,4 +52,9 @@
                 <h2 id="著名な思想家">著名な思想家</h2>
       </div>
 </body>
+<script>
+  document.getElementById("compass").addEventListener("click", function(){
+    window.location.href = "../"
+  })
+</script>
 </html>

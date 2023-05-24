@@ -30,7 +30,9 @@
 </head>
 <body>
   <div id="header">
-    ComPASS
+    <span id="compass">
+      ComPASS
+    </span>
   </div>
   <div id="content">
                 <h1 id="無機化学">無機化学</h1>
@@ -67,4 +69,9 @@
                 <h3 id="h2so4">H2SO4</h3>
       </div>
 </body>
+<script>
+  document.getElementById("compass").addEventListener("click", function(){
+    window.location.href = "../"
+  })
+</script>
 </html>

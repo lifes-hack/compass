@@ -30,7 +30,9 @@
 </head>
 <body>
   <div id="header">
-    ComPASS
+    <span id="compass">
+      ComPASS
+    </span>
   </div>
   <div id="content">
                 <h1 id="音楽理論ノート">音楽理論ノート</h1>
@@ -287,4 +289,9 @@
                 <h3 id="セカンダリドミナント">セカンダリドミナント</h3>
       </div>
 </body>
+<script>
+  document.getElementById("compass").addEventListener("click", function(){
+    window.location.href = "../"
+  })
+</script>
 </html>

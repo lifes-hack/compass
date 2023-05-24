@@ -12,6 +12,9 @@ function print(){
   }
 }
 $(function(){
+  document.getElementById("compass").addEventListener("click", function(){
+    window.location.href = "./"
+  })
   $.getJSON("pages.json").done(function (json){
     for(let i=0;i<json.pages.length;i++){
       if(!categories.includes(json.pages[i].category)){
