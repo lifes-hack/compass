@@ -8,25 +8,47 @@ body{
   font-weight: bolder;
   text-align: center;
 }
-#index{
-  border: #FC4442 5px dashed;
-  background-color: #F0E19E;
-  margin-left: auto;
-  margin-right:auto;
+@media screen and (max-width:480px){
+  #content{
+    width: 90vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #header{
+    height:120px;
+    font-size: 70px;
+  }
 }
-
-@media screen and (max-width:767px){
-}
-@media screen and (min-width:768px) and (max-width:1023px){
-}
-@media screen and (min-width:1024px) {
- #header{
+@media screen and (max-width: 928px) and (min-width:481px){
+  #content{
+    width: 90vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #header{
     height:150px;
     font-size: 80px;
   }
-  #index{
-    width: 1000px;
-    margin-top: 50px;
-    min-height: 100px;
+}
+@media screen and (max-width:1024px) and (min-width:929px){
+  #content{
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #header{
+    height:150px;
+    font-size: 80px;
+  }
+}
+@media screen and (min-width:1024px) {
+  #content{
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #header{
+    height:150px;
+    font-size: 80px;
   }
 }

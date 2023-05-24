@@ -48,9 +48,116 @@ h2{
   text-decoration-thickness: 5px;
   text-decoration-color: #FC4442;
 }
-@media screen and (max-width:767px){
+@media screen and (max-width:480px){
+  #image{
+    border: #F2F2F2 5px dashed;
+    height: 90vw;
+    width: 90vw;
+    background-image: url("twitter.jpg");
+    background-size: contain;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  #categories > li{
+    margin: 10px;
+  }
+  #categories{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    width: 60vw;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  p{
+    font-size: 20px;
+  }
+  #header{
+    height:120px;
+    font-size: 70px;
+  }
+  h1{
+    font-size:large;
+  }
+  #index{
+    width: 90vw;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    min-height: 100px;
+  }
 }
-@media screen and (min-width:768px) and (max-width:1023px){
+@media screen and (max-width: 928px) and (min-width:481px){
+  #image{
+    border: #F2F2F2 5px dashed;
+    height: 90vw;
+    width: 90vw;
+    background-image: url("twitter.jpg");
+    background-size: contain;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  #categories > li{
+    margin: 10px;
+  }
+  #categories{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    width: 60vw;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  p{
+    font-size: 20px;
+  }
+  #header{
+    height:150px;
+    font-size: 80px;
+  }
+  #index{
+    width: 90vw;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    min-height: 100px;
+  }
+}
+@media screen and (max-width:1024px) and (min-width:929px){
+  #image{
+    border: #F2F2F2 5px dashed;
+    height: 400px;
+    width: 400px;
+    background-image: url("twitter.jpg");
+    background-size: contain;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  #categories > li{
+    margin: 10px;
+  }
+  #categories{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    width: 450px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  p{
+    font-size: 20px;
+  }
+  #header{
+    height:150px;
+    font-size: 80px;
+  }
+  #index{
+    width: 750px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    min-height: 100px;
+  }
 }
 @media screen and (min-width:1024px) {
   #image{
@@ -84,6 +191,7 @@ h2{
   #index{
     width: 750px;
     margin-top: 30px;
+    margin-bottom: 100px;
     min-height: 100px;
   }
 }
